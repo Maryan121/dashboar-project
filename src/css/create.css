@@ -1,0 +1,23 @@
+.buttons{
+    padding: 0 .5rem;
+}
+.section{
+    box-shadow: 0px 0px 1px rgba(128, 128, 128, 0.645);
+}
+@media(min-width:768px){
+    .createContainer{
+        margin-left: 7rem;
+        padding: 2rem 0 1rem 8rem;
+        width: 90%;
+    }
+    .boxCont{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: .7rem;
+    }
+    .lastB{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+}

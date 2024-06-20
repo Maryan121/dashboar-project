@@ -1,0 +1,24 @@
+
+table{
+    box-shadow: 0px 0px 1px black;
+}
+.status{
+    padding-left: -5rem;
+}
+.hide{
+    display: none;
+}
+
+@media(min-width:768px){
+    .customersContainer{
+        margin-left: 7rem;
+        padding: 2rem 0 1rem 8rem;
+        width: 90%;
+    }
+    .nav{
+        display: none;
+    }
+    .hide{
+        display:table-cell;
+    }
+}

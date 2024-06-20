@@ -1,0 +1,24 @@
+
+.header{
+    border-bottom: solid 1px rgba(0, 0, 0, 0.105);
+}
+.header p{
+    text-transform: capitalize;
+}
+.admintext{
+    margin-top: -.4rem;
+}
+
+
+@media(min-width:700px){
+    .header{
+        margin-left: 13rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+    .headerRightItems{
+        gap: 3rem;
+    }
+}
+
