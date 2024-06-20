@@ -4,9 +4,13 @@ import './index.css';
 import Suppliers from './pages/supplier';
 import CreateCustomer from './pages/createCustomer';
 import CreateSupplier from './pages/createSupplier';
+import Customers from './components/customers';
 
 import App from './App';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+const basename = process.env.NODE_ENV === 'production' ? '/dashboard-project' : '/';
+
+
 
 const myRouter = createBrowserRouter([
   {
@@ -24,7 +28,8 @@ const myRouter = createBrowserRouter([
   {
     path:'/createSupplier',
     element:<CreateSupplier />
-  }
+  },
+  { basename }
 
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));

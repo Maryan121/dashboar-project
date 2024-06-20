@@ -88,18 +88,18 @@ export default function Customers() {
                 {
                     data.map((customer)=>{
                         return(
-                            <tbody className='my-4 border'>
-                            <tr className='capitalize tbrow'>
-                                <td className='ml-3 py-4 px-2 hide'>{customer.customerId}</td>
-                                <td className='mx-2'>{customer.name}</td>
-                                <td className='hide '>{customer.mobile}</td>
-                                <td className=' hide'>{customer.lastActivity}</td>
-                                <td className='pl-5'>${customer.balance}</td>
-                                <td className='hide'>{customer.createdAt}</td>
-                                <td className='pl-8'>${customer.openBalance}</td>
-                                <td className='pl-5  hide'>${customer.creditLimit}</td>
-                                <td className='active pl-6'><span className='bg-primary-lightGreen text-primary-darkGreen font-bold rounded py-1 px-4'>{customer.status}</span></td>
-                            </tr>
+                            <tbody className='my-4 border'key={customer.id}>
+                                <tr className='capitalize tbrow'>
+                                    <td className='ml-3 py-4 px-2 hide'>{customer.customerId}</td>
+                                    <td className='mx-2'>{customer.name}</td>
+                                    <td className='hide '>{customer.mobile}</td>
+                                    <td className=' hide'>{customer.lastActivity}</td>
+                                    <td className='pl-5'>${customer.balance}</td>
+                                    <td className='hide'>{customer.createdAt}</td>
+                                    <td className='pl-8'>${customer.openBalance}</td>
+                                    <td className='pl-5  hide'>${customer.creditLimit}</td>
+                                    <td className='active pl-6'><span className='bg-primary-lightGreen text-primary-darkGreen font-bold rounded py-1 px-4'>{customer.status}</span></td>
+                                </tr>
                             </tbody>
                         )
                     })
