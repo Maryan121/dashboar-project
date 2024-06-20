@@ -2,4 +2,4 @@
 
 ## built with react and tailwind
 
-see the demo https://maryan121.github.io/dashboard/
+see the demo https://maryan121.github.io/my-dashboard/
