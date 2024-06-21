@@ -33,3 +33,8 @@
         display: none;
     }
 }
+@media(min-width:2000px){
+    .sidebarContainer{
+        height: 100vh;
+    }
+}

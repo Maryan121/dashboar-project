@@ -21,3 +21,9 @@
         gap: 1rem;
     }
 }
+@media(min-width:2000px){
+    .createContainer{
+        width: 77%;
+        margin-left: 13rem;
+    }
+}

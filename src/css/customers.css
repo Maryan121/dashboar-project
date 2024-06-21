@@ -9,12 +9,7 @@ table{
     display: none;
 }
 
-/* @media(min-width:544px){
-    .customersContainer{
-        margin-left: 3rem;
-        width: 80%;
-    }
-} */
+
 @media(min-width:768px){
     .customersContainer{
         margin-left: 7rem;
@@ -26,5 +21,10 @@ table{
     }
     .hide{
         display:table-cell;
+    }
+}
+@media(min-width:2000px){
+    .customersContainer{
+        margin-left: 15rem;
     }
 }
