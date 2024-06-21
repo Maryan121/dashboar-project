@@ -1,10 +1,7 @@
 import React from 'react'
-// import '../css/header.css'
 import '../css/suppliers.css'
 import '../css/sidebar.css'
 import '../css/header.css'
-import Header from '../components/header'
-import Sidebar from '../components/sidebar'
 import frame from '../images/Frame.png'
 import vector from '../images/Vector.png'
 import newIcon from '../images/newIcon.png'
@@ -21,8 +18,6 @@ import Footer from '../components/footer'
 export default function Suppliers() {
   return (
     <>
-        <Header/>
-        <Sidebar />
     <div className='container suppliersContainer'>  
         <div className='flex justify-around my-3  uppercase nav'>
             <Link to='/' className=' hover:text-primary-red'>costomers</Link>
