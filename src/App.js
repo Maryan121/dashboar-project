@@ -1,24 +1,26 @@
 import './App.css';
 import './App.css';
 import Customers from './components/customers';
-import Suppliers from './pages/supplier';
 import CreateCustomer from './pages/createCustomer';
+import Suppliers from './pages/supplier';
 import CreateSupplier from './pages/createSupplier';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 function App() {
  
   return (
-    <div className='App'>
+    
       <Router>
-        <Routes>
-          <Route path="/" element={<Customers />} />
-          <Route path="/suppliers" element={<Suppliers />} />
-          <Route path="/CreateCustomer" element={<CreateCustomer />} />
-          <Route path="/CreateSupplier" element={<CreateSupplier />} />
+        <div className='App'>
+        <Routes> 
+          <Route path='/'  element={<Customers />} />
+          <Route path="/supplier" element={<Suppliers />} />
+          <Route path="/createCustomer" element={<CreateCustomer />} />
+          <Route path="/createSupplier" element={<CreateSupplier />} />
           <Route path="*" element={<div>404 page not found</div>} />
         </Routes>
+        </div>
       </Router>
-    </div>
+    
   );
 }
 

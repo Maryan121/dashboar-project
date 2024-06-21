@@ -22,7 +22,7 @@ export default function Customers() {
          <Sidebar />
         <div className='flex justify-around my-3 uppercase nav'>
             <Link to='/' className='font-medium hover:text-primary-red'>costomers</Link>
-            <Link to='/suppliers' className='hover:text-primary-red'>suppliers</Link>
+            <Link to='/supplier' className='hover:text-primary-red'>suppliers</Link>
         </div>
         
       <div className="titleSec flex justify-between  p-2 border my-3 mx-1">
@@ -119,7 +119,7 @@ export default function Customers() {
             <div className='bg-primary-grayishWhite  flex px-1  gap-5 rounded'>
                 <Link to='/' className='bg-primary-red text-primary-white py-1 px-3'>1</Link>
                 <Link to='/createCustomer' className='py-1 px-3 hover:bg-primary-red hover:text-primary-white'>2</Link>
-                <Link to='/suppliers' className='py-1 px-3 hover:bg-primary-red hover:text-primary-white'>3</Link>
+                <Link to='/supplier' className='py-1 px-3 hover:bg-primary-red hover:text-primary-white'>3</Link>
                 <Link to='/createSupplier' className='py-1 px-3 hover:bg-primary-red hover:text-primary-white'>4</Link>
             </div>
             <Link to='#'><img src={right} className='self-center hover:opacity-80 cursor-pointer' alt="" /></Link>

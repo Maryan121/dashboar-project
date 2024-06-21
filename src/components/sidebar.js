@@ -25,7 +25,7 @@ export default function Sidebar() {
           <ul className='flex flex-col gap-2'>
             <Link to='/'><li className='flex  gap-1 cursor-pointer hover:opacity-60'><img src={home} className='self-center' alt="" /> home</li></Link>
             <Link to='/'><li className='flex gap-1 cursor-pointer hover:opacity-60'><img src={customerIcon} className='self-center' alt="" /> customers</li></Link>
-            <Link to='/suppliers'><li className='flex gap-1 cursor-pointer hover:opacity-60'><img src={suplierIcon} className='self-center' alt="" /> suppliers</li></Link>
+            <Link to='/supplier'><li className='flex gap-1 cursor-pointer hover:opacity-60'><img src={suplierIcon} className='self-center' alt="" /> suppliers</li></Link>
           </ul>
         </div>
         <div>

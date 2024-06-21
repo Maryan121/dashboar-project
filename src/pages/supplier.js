@@ -25,7 +25,7 @@ export default function Suppliers() {
     <div className='container suppliersContainer'>  
         <div className='flex justify-around my-3  uppercase nav'>
             <Link to='/' className=' hover:text-primary-red'>costomers</Link>
-            <Link to='/suppliers' className='font-medium hover:text-primary-red'>suppliers</Link>
+            <Link to='/supplier' className='font-medium hover:text-primary-red'>suppliers</Link>
         </div>    
       <div className="titleSec flex justify-between  p-2 border my-3 mx-1">
         <h2 className='capitalize font-medium'></h2>
@@ -125,7 +125,7 @@ export default function Suppliers() {
             <div className='bg-primary-grayishWhite  flex px-1  gap-5 rounded'>
                 <Link to='/' className='hover:bg-primary-red hover:text-primary-white py-1 px-3'>1</Link>
                 <Link to='/createCustomer' className='py-1 px-3 hover:bg-primary-red hover:text-primary-white'>2</Link>
-                <Link to='/suppliers' className='py-1 px-3 bg-primary-red text-primary-white'>3</Link>
+                <Link to='/supplier' className='py-1 px-3 bg-primary-red text-primary-white'>3</Link>
                 <Link to='/createSupplier' className='py-1 px-3 hover:bg-primary-red hover:text-primary-white'>4</Link>
             </div>
             <img src={right} className='self-center hover:opacity-80 cursor-pointer' alt="" />

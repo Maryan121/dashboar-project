@@ -18,7 +18,7 @@ export default function CreateSupplier() {
             <h4 className='capitalize'>create supplier</h4>
             <div className='flex gap-4 justify-end'>
                 <img className='self-center' src={frame} alt="" /> 
-                <Link to='/suppliers' className='flex gap-3 hover:opacity-60'>
+                <Link to='/supplier' className='flex gap-3 hover:opacity-60'>
                    <img className='self-center' src={backArrow} alt="" />
                   <p className='capitalize self-center'>back to list</p>
                 </Link>               
