@@ -17,9 +17,12 @@ import Sidebar from './sidebar'
 
 export default function Customers() {
   return (
+    <>
+        <Header />
+        <Sidebar />
+  
     <div className='container customersContainer'>
-         <Header />
-         <Sidebar />
+         
         <div className='flex justify-around my-3 uppercase nav'>
             <Link to='/' className='font-medium hover:text-primary-red'>costomers</Link>
             <Link to='/supplier' className='hover:text-primary-red'>suppliers</Link>
@@ -127,5 +130,7 @@ export default function Customers() {
         <Footer />
      
     </div>
+
+    </>
   )
 }
