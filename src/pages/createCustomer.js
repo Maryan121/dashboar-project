@@ -4,12 +4,15 @@ import '../css/create.css'
 import { Link } from 'react-router-dom'
 import Form from '../components/form'
 import Footer from '../components/footer'
+import Header from '../components/header'
+import Sidebar from '../components/sidebar'
 
 export default function CreateCustomer() {
   
   return (
     <div>
-       
+        <Header />
+        <Sidebar />
         <div className="createContainer ">            
           <div className="flex py-3 px-5 border my-3 mx-1 justify-between">
             <h4 className='capitalize'>create</h4>

@@ -13,11 +13,15 @@ import left from '../images/Left.png'
 import right from '../images/Right.png'
 import { Link } from 'react-router-dom'
 import Footer from '../components/footer'
+import Header from '../components/header'
+import Sidebar from '../components/sidebar'
 
 
 export default function Suppliers() {
   return (
     <>
+     <Header />
+     <Sidebar />
     <div className='container suppliersContainer'>  
         <div className='flex justify-around my-3  uppercase nav'>
             <Link to='/' className=' hover:text-primary-red'>costomers</Link>

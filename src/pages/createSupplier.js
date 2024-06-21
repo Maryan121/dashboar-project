@@ -4,11 +4,15 @@ import frame from '../images/Frame.png'
 import Form from '../components/form'
 import { Link } from 'react-router-dom'
 import Footer from '../components/footer'
+import Header from '../components/header'
+import Sidebar from '../components/sidebar'
 
 
 export default function CreateSupplier() {
   return (
     <div>
+       <Header />
+       <Sidebar />
         <div className="createContainer ">            
           <div className="flex py-3 px-5 border my-3 mx-1 justify-between">
             <h4 className='capitalize'>create supplier</h4>
