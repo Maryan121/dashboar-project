@@ -10,13 +10,12 @@ function App() {
   return (
     <div className='App'>
       <Router>
-     
         <Routes>
           <Route path="/" element={<Customers />} />
           <Route path="/suppliers" element={<Suppliers />} />
           <Route path="/CreateCustomer" element={<CreateCustomer />} />
           <Route path="/CreateSupplier" element={<CreateSupplier />} />
-          <Route path="*" element={<div>page 404 not found</div>} />
+          <Route path="*" element={<div>404 page not found</div>} />
         </Routes>
       </Router>
     </div>
